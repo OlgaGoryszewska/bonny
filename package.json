@@ -1,0 +1,29 @@
+{
+  "name": "bonny",
+  "version": "1.0.0",
+  "description": "webpage",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OlgaGoryszewska/bonny.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OlgaGoryszewska/bonny/issues"
+  },
+  "homepage": "https://github.com/OlgaGoryszewska/bonny#readme",
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.3.1",
+    "next": "^16.2.9",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "tailwindcss": "^4.3.1"
+  }
+}
