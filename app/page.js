@@ -14,7 +14,7 @@ export default function Home() {
             priority
             sizes="100vw"
           />
-          
+
           <p className="hero-text uppercase pb-10">Jewelry Created </p>
           <p className="hero-text uppercase"> Around Your Story</p>
         </section>
@@ -74,9 +74,9 @@ export default function Home() {
             src="/sep_01.png"
             alt=""
             aria-hidden="true"
-            className="craft-separator"
-            width={38}
-            height={27}
+            className="craft-separator craft-separator-large"
+            width={36}
+            height={36}
           />
           <p>
             Every piece created in my atelier begins with a conversation. Not
@@ -84,8 +84,54 @@ export default function Home() {
             promise. A celebration. A story that deserves to be preserved in
             precious materials and exceptional craftsmanship.
           </p>
-        </section>
+          <Image
+            src="/sep_03.png"
+            alt=""
+            aria-hidden="true"
+            className="craft-separator craft-separator-large"
+            width={36}
+            height={36}
+          />
+          <p>
+            I work directly with every client from the first consultation to the
+            final delivery. No intermediaries. No production lines. No
+            compromises. Whether creating an engagement ring, a family heirloom,
+            a commemorative piece, or an entirely unique design, my goal remains
+            the same: to transform personal stories into timeless objects that
+            can be treasured for generations.
+          </p>
+          <Image
+            src="/sep_02.png"
+            alt=""
+            aria-hidden="true"
+            className="craft-separator craft-separator-large"
+            width={36}
+            height={36}
+          />
+          <p>
+            I work directly with every client from the first consultation to the
+            final delivery. No intermediaries. No production lines. No
+            compromises. Whether creating an engagement ring, a family heirloom,
+            a commemorative piece, or an entirely unique design, my goal remains
+            the same: to transform personal stories into timeless objects that
+            can be treasured for generations.
+          </p>
 
+          <Image
+            src="/sep_04.png"
+            alt=""
+            aria-hidden="true"
+            className="craft-separator craft-separator-large"
+            width={36}
+            height={36}
+          />
+          <p>
+            Every gemstone is selected individually. Every detail is considered.
+            Every piece is made to exist only once. Because true luxury is not
+            about owning what everyone else has. It is about owning something
+            that was created exclusively for you.
+          </p>
+        </section>
       </main>
     </>
   );

@@ -311,11 +311,18 @@ h6 {
 }
 
 .craft-separator {
-  height: 27px;
+  height: 34px;
   margin: 1rem auto 0;
   object-fit: contain;
-  width: 38px;
+  width: 43px;
 }
+
+.craft-separator-large {
+  height: 54px;
+  width: 68px;
+}
+
+
 
 @media (max-width: 640px) {
   .site-header {
