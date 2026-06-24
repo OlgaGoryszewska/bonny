@@ -132,6 +132,11 @@ export default function Home() {
             that was created exclusively for you.
           </p>
         </section>
+        <div className="consultation-action">
+          <a className="consultation-link" href="#contact">
+            START PROCESS
+          </a>
+        </div>
       </main>
     </>
   );

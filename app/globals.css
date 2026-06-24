@@ -2,7 +2,7 @@
 
 :root {
   --ink: #171717;
-  --cream: #F6F2F1;
+  --cream: #f6f2f1;
   --line: #e8e0d6;
   --sage: #5f756a;
 }
@@ -233,6 +233,10 @@ h6 {
   width: 310px;
 }
 
+.consultation-link {
+  color: #2c2c2c;
+}
+
 .heirloom-card {
   background: #ffffff;
   margin: 0;
@@ -252,7 +256,7 @@ h6 {
 }
 
 .heirloom-list {
-  color: #2C2C2C;
+  color: #2c2c2c;
   display: flex;
   flex-direction: column;
   font-family: var(--font-playfair-display), Georgia, serif;
@@ -321,8 +325,6 @@ h6 {
   height: 54px;
   width: 68px;
 }
-
-
 
 @media (max-width: 640px) {
   .site-header {
