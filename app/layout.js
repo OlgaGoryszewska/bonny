@@ -1,4 +1,8 @@
-import { Montserrat, Playfair_Display } from "next/font/google";
+import {
+  Cormorant_Infant,
+  Montserrat,
+  Playfair_Display,
+} from "next/font/google";
 import "./globals.css";
 
 const montserrat = Montserrat({
@@ -11,6 +15,11 @@ const playfairDisplay = Playfair_Display({
   variable: "--font-playfair-display",
 });
 
+const cormorantInfant = Cormorant_Infant({
+  subsets: ["latin"],
+  variable: "--font-cormorant-infant",
+});
+
 export const metadata = {
   title: "Bonny",
   description: "Handmade unique jewelry by one artist.",
@@ -19,7 +28,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${montserrat.variable} ${playfairDisplay.variable}`}>
+      <body
+        className={`${montserrat.variable} ${playfairDisplay.variable} ${cormorantInfant.variable}`}
+      >
         {children}
       </body>
     </html>
