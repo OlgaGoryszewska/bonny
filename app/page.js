@@ -164,7 +164,7 @@ export default function Home() {
               </article>
             </div>
             <div className="creation-story">
-              <div className="creation-story-kicker">The history behind</div>
+              <div className="creation-story-kicker">The story behind</div>
               <h3>The Parallel Promise</h3>
               <p>
                 They met at the wrong time, in the wrong place, with lives
@@ -179,7 +179,7 @@ export default function Home() {
                 chose the same future.
               </p>
               <p>A reminder that the strongest love is not about holding on.</p>
-              <p>It&apos;s about moving forward, together.</p>
+              <p>It is about moving forward, together.</p>
               <a href="#contact">Discover</a>
             </div>
           </div>
