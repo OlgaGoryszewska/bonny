@@ -341,8 +341,8 @@ h6 {
 .selected-creations h2 {
   color: #5b5b5b;
   font-family: var(--font-montserrat), Arial, Helvetica, sans-serif;
-  font-size: 28px;
-  font-weight: 400;
+  font-size: 22px;
+  font-weight: 300;
   letter-spacing: 0.07em;
   margin: 0;
   padding: 0 2rem 1.25rem;
@@ -417,6 +417,17 @@ h6 {
   text-align: left;
 }
 
+.creation-story-kicker {
+  color: #252323;
+  font-family: var(--font-montserrat), Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 5px;
+  line-height: 1.4;
+  margin: 0 0 1rem;
+  text-transform: uppercase;
+}
+
 .creation-story a {
   color: #252323;
   display: block;
@@ -478,7 +489,7 @@ h6 {
   }
 
   .selected-creations h2 {
-    font-size: 28px;
+    font-size: 22px;
     padding: 0 2rem 1rem;
   }
 

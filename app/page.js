@@ -164,6 +164,7 @@ export default function Home() {
               </article>
             </div>
             <div className="creation-story">
+              <div className="creation-story-kicker">The history behind</div>
               <h3>The Parallel Promise</h3>
               <p>
                 They met at the wrong time, in the wrong place, with lives
