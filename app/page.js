@@ -137,6 +137,52 @@ export default function Home() {
             START PROCESS
           </a>
         </div>
+        <section
+          className="selected-creations"
+          aria-labelledby="selected-creations-title"
+        >
+          <div className="selected-creations-inner">
+            <h2 id="selected-creations-title">Selected Creations</h2>
+            <div className="selected-creations-grid">
+              <article className="creation-panel creation-panel-photo">
+                <Image
+                  src="/bride.png"
+                  alt="Bride wearing an engagement ring"
+                  fill
+                  sizes="(max-width: 720px) 100vw, 360px"
+                />
+                <p>Engagement Rings</p>
+              </article>
+              <article className="creation-panel creation-panel-ring">
+                <Image
+                  src="/engagement_ring.png"
+                  alt="Gold engagement ring with diamonds"
+                  fill
+                  sizes="(max-width: 720px) 100vw, 360px"
+                />
+                <p>Hand Crafted</p>
+              </article>
+            </div>
+            <div className="creation-story">
+              <h3>The Parallel Promise</h3>
+              <p>
+                They met at the wrong time, in the wrong place, with lives
+                already moving in different directions.
+              </p>
+              <p>Neither asked the other to change.</p>
+              <p>Instead, they chose to walk side by side.</p>
+              <p>
+                The two gold bands represent two independent journeys. The
+                diamond between them symbolizes the life they built together,
+                not by becoming one person, but by growing as two people who
+                chose the same future.
+              </p>
+              <p>A reminder that the strongest love is not about holding on.</p>
+              <p>It&apos;s about moving forward, together.</p>
+              <a href="#contact">Discover</a>
+            </div>
+          </div>
+        </section>
       </main>
     </>
   );

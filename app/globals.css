@@ -326,6 +326,111 @@ h6 {
   width: 68px;
 }
 
+.selected-creations {
+  background: #f6f2f1;
+  margin: 0;
+  padding: 3rem 0;
+}
+
+.selected-creations-inner {
+  margin: 0 auto;
+  max-width: 720px;
+  width: 100%;
+}
+
+.selected-creations h2 {
+  color: #5b5b5b;
+  font-family: var(--font-montserrat), Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  letter-spacing: 0.07em;
+  margin: 0;
+  padding: 0 2rem 1.25rem;
+  text-transform: uppercase;
+}
+
+.selected-creations-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.creation-panel {
+  aspect-ratio: 1 / 1.48;
+  overflow: hidden;
+  position: relative;
+}
+
+.creation-panel img {
+  object-fit: cover;
+}
+
+.creation-panel p {
+  margin: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+.creation-panel-photo p {
+  bottom: 1.5rem;
+  color: #ffffff;
+  font-family: var(--font-montserrat), Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  left: 1.5rem;
+  letter-spacing: 0.05em;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.creation-panel-ring {
+  background: #ffffff;
+}
+
+.creation-panel-ring img {
+  object-fit: contain;
+  padding: 3.5rem;
+}
+
+.creation-panel-ring p {
+  bottom: 1.5rem;
+  color: #252323;
+  font-family: var(--font-cormorant-infant), Georgia, serif;
+  font-size: 13px;
+  font-weight: 400;
+  right: 1.5rem;
+}
+
+.creation-story {
+  background: #f6f2f1;
+  padding: 2rem;
+}
+
+.creation-story h3,
+.creation-story p {
+  color: #252323;
+  font-family: var(--font-playfair-display), Georgia, serif;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  line-height: 1.45;
+  margin: 0 0 1.4rem;
+  text-align: left;
+}
+
+.creation-story a {
+  color: #252323;
+  display: block;
+  font-family: var(--font-montserrat), Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  margin: 1rem auto 0;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+  width: fit-content;
+}
+
 @media (max-width: 640px) {
   .site-header {
     gap: 12px;
@@ -361,6 +466,31 @@ h6 {
 
   .ring-card {
     margin: 0 1rem;
+    padding: 3rem;
+  }
+
+  .selected-creations {
+    padding-top: 2rem;
+  }
+
+  .selected-creations-inner {
+    max-width: none;
+  }
+
+  .selected-creations h2 {
+    font-size: 28px;
+    padding: 0 2rem 1rem;
+  }
+
+  .selected-creations-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .creation-panel {
+    aspect-ratio: 1 / 1.32;
+  }
+
+  .creation-panel-ring img {
     padding: 3rem;
   }
 }
