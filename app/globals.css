@@ -329,7 +329,7 @@ h6 {
 .selected-creations {
   background: #f6f2f1;
   margin: 0;
-  padding: 3rem 0;
+  padding: 2rem 0;
 }
 
 .selected-creations-inner {
@@ -341,8 +341,8 @@ h6 {
 .selected-creations h2 {
   color: #5b5b5b;
   font-family: var(--font-montserrat), Arial, Helvetica, sans-serif;
-  font-size: 12px;
-  font-weight: 300;
+  font-size: 14px;
+  font-weight: 400;
   letter-spacing: 0.07em;
   margin: 0;
   padding: 0 0 1.25rem;
@@ -376,7 +376,7 @@ h6 {
   font-family: var(--font-montserrat), Arial, Helvetica, sans-serif;
   font-size: 16px;
   font-weight: 500;
-  left: 1.5rem;
+  left: 2rem;
   letter-spacing: 0.05em;
   line-height: 1.2;
   text-transform: uppercase;
