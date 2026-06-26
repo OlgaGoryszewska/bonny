@@ -271,6 +271,48 @@ export default function Home() {
               <p>A tiny secret garden, captured forever in gold.</p>
               <a href="#contact">Discover</a>
             </div>
+            <div className="selected-creations-grid selected-creations-grid-next">
+              <article className="creation-panel creation-panel-photo">
+                <Image
+                  src="/model_neckles.png"
+                  alt="Model wearing a sisterhood necklace"
+                  fill
+                  sizes="(max-width: 720px) 50vw, 360px"
+                />
+                <p>Necklaces</p>
+              </article>
+              <article className="creation-panel creation-panel-ring creation-panel-necklace">
+                <Image
+                  src="/neckles.png"
+                  alt="Hand made sisterhood necklace"
+                  fill
+                  sizes="(max-width: 720px) 50vw, 360px"
+                />
+                <p>Hand Made</p>
+              </article>
+            </div>
+            <div className="creation-story">
+              <div className="creation-story-kicker">The story behind it</div>
+              <h3>The Sisterhood Necklace</h3>
+              <p>
+                Long before they knew where life would take them, they made a
+                promise: No matter the distance, no matter the years, they would
+                always remain part of each other&apos;s story.
+              </p>
+              <p>
+                The two intertwined circles represent two women connected not by
+                obligation, but by choice. Sisters by blood, sisters by
+                friendship, sisters by life. Each circle stands strong on its
+                own, yet together they create an unbreakable bond.
+              </p>
+              <p>
+                Through celebrations and heartbreaks, adventures and quiet
+                moments, they carry a piece of one another wherever they go.
+              </p>
+              <p>A simple design with a powerful meaning:</p>
+              <p>Different lives. Shared memories. One sisterhood.</p>
+              <a href="#contact">Discover</a>
+            </div>
           </div>
         </section>
       </main>
