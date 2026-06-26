@@ -421,6 +421,7 @@ h6 {
 
 .creation-panel-signet img {
   padding: 2.5rem;
+  transform: scale(1.35);
 }
 
 .creation-panel-one img {
@@ -480,6 +481,198 @@ h6 {
   text-decoration: underline;
   text-transform: uppercase;
   width: fit-content;
+}
+
+.process-section {
+  background: #ffffff;
+  margin: 0;
+  padding: 3rem 0 4rem;
+}
+
+.process-inner {
+  margin: 0 auto;
+  max-width: 720px;
+  padding: 0 2.75rem;
+  width: 100%;
+}
+
+.process-kicker {
+  color: #868281;
+  font-family: var(--font-montserrat), Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  margin: 0 0 0.5rem;
+  text-transform: uppercase;
+}
+
+.process-section h2 {
+  color: #252322;
+  font-family: var(--font-montserrat), Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.28;
+  margin: 0 0 2.75rem;
+}
+
+.process-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.process-list li {
+  align-items: center;
+  display: grid;
+  gap: 1.75rem;
+  grid-template-columns: 82px 1fr;
+}
+
+.process-list span {
+  color: #252323;
+  font-family: var(--font-montserrat), Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.process-list p {
+  color: #171717;
+  font-family: var(--font-montserrat), Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.15;
+  margin: 0;
+}
+
+.gemstones-section {
+  background: #ffffff;
+  border-top: 1px solid rgba(134, 130, 129, 0.22);
+  margin: 0;
+  padding: 3rem 0 4rem;
+}
+
+.gemstones-inner {
+  margin: 0 auto;
+  max-width: 720px;
+  padding: 0 2.75rem;
+  width: 100%;
+}
+
+.gemstones-section h2 {
+  color: #252322;
+  font-family: var(--font-montserrat), Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.3;
+  margin: 0;
+}
+
+.gemstones-section p {
+  color: #868281;
+  font-family: var(--font-playfair-display), Georgia, serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.45;
+  margin: 0.75rem 0 0;
+}
+
+.gemstone-feature {
+  aspect-ratio: 1198 / 1313;
+  margin: 1rem 0 0;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.gemstone-feature img {
+  object-fit: cover;
+}
+
+.gemstone-feature span {
+  bottom: 1.5rem;
+  color: #ffffff;
+  font-family: var(--font-playfair-display), Georgia, serif;
+  font-size: 24px;
+  font-weight: 400;
+  left: 1.5rem;
+  letter-spacing: 0.05em;
+  line-height: 1.2;
+  position: absolute;
+  text-transform: uppercase;
+  z-index: 1;
+}
+
+.faq-section {
+  background: #f6f2f1;
+  margin: 0;
+  padding: 3.5rem 0 4rem;
+}
+
+.faq-inner {
+  margin: 0 auto;
+  max-width: 720px;
+  padding: 0 2.75rem;
+  width: 100%;
+}
+
+.faq-section h2 {
+  color: #252322;
+  font-family: var(--font-montserrat), Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.3;
+  margin: 0 0 1.5rem;
+}
+
+.faq-list {
+  border-top: 1px solid rgba(134, 130, 129, 0.35);
+}
+
+.faq-list details {
+  border-bottom: 1px solid rgba(134, 130, 129, 0.35);
+  padding: 1rem 0;
+}
+
+.faq-list summary {
+  color: #252322;
+  cursor: pointer;
+  font-family: var(--font-montserrat), Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.4;
+  list-style: none;
+  padding-right: 2rem;
+  position: relative;
+}
+
+.faq-list summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq-list summary::after {
+  content: "+";
+  font-size: 20px;
+  line-height: 1;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.faq-list details[open] summary::after {
+  content: "-";
+}
+
+.faq-list p {
+  color: #868281;
+  font-family: var(--font-playfair-display), Georgia, serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.55;
+  margin: 0.75rem 0 0;
 }
 
 @media (max-width: 640px) {
@@ -573,5 +766,43 @@ h6 {
   .creation-panel-ring p {
     bottom: 1rem;
     right: 1rem;
+  }
+
+  .process-section {
+    padding: 2.5rem 0 3.5rem;
+  }
+
+  .process-inner {
+    padding: 0 2rem;
+  }
+
+  .process-section h2 {
+    font-size: 24px;
+    margin-bottom: 2.75rem;
+  }
+
+  .process-list {
+    gap: 2.4rem;
+  }
+
+  .process-list li {
+    gap: 1.75rem;
+    grid-template-columns: 84px 1fr;
+  }
+
+  .process-list span {
+    font-size: 40px;
+  }
+
+  .process-list p {
+    font-size: 15px;
+  }
+
+  .gemstones-inner {
+    padding: 0 2rem;
+  }
+
+  .faq-inner {
+    padding: 0 2rem;
   }
 }

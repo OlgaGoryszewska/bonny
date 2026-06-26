@@ -191,7 +191,7 @@ export default function Home() {
                   fill
                   sizes="(max-width: 720px) 50vw, 360px"
                 />
-                <p>Model Signet</p>
+                <p>Signet Rings</p>
               </article>
               <article className="creation-panel creation-panel-ring creation-panel-signet">
                 <Image
@@ -200,7 +200,7 @@ export default function Home() {
                   fill
                   sizes="(max-width: 720px) 50vw, 360px"
                 />
-                <p>Signet</p>
+                <p>Hand Crafted</p>
               </article>
             </div>
             <div className="creation-story">
@@ -312,6 +312,206 @@ export default function Home() {
               <p>A simple design with a powerful meaning:</p>
               <p>Different lives. Shared memories. One sisterhood.</p>
               <a href="#contact">Discover</a>
+            </div>
+          </div>
+        </section>
+        <section className="process-section" aria-labelledby="process-title">
+          <div className="process-inner">
+            <p className="process-kicker">Process</p>
+            <h2 id="process-title">
+              A Personal Journey From
+              <br />
+              Idea to Creation
+            </h2>
+            <ol className="process-list">
+              <li>
+                <span>01</span>
+                <p>
+                  Discovery
+                  <br />
+                  Private consultation
+                </p>
+              </li>
+              <li>
+                <span>02</span>
+                <p>
+                  Design
+                  <br />
+                  Sketches and 3D visualization
+                </p>
+              </li>
+              <li>
+                <span>03</span>
+                <p>
+                  Gemstone Selection
+                  <br />
+                  Carefully sourced stones
+                </p>
+              </li>
+              <li>
+                <span>04</span>
+                <p>
+                  Creation
+                  <br />
+                  Handcrafted in the atelier
+                </p>
+              </li>
+              <li>
+                <span>05</span>
+                <p>
+                  Delivery
+                  <br />
+                  Presentation and insured delivery
+                </p>
+              </li>
+            </ol>
+          </div>
+        </section>
+        <section
+          className="gemstones-section"
+          aria-labelledby="gemstones-title"
+        >
+          <div className="gemstones-inner">
+            <h2 id="gemstones-title">Exceptional Gemstones</h2>
+            <p>Chosen for Their Beauty, Not Their Popularity</p>
+            <div className="gemstone-feature">
+              <Image
+                src="/green_ring_pastel.png"
+                alt="Pastel green emerald ring"
+                fill
+                sizes="(max-width: 720px) 100vw, 720px"
+              />
+              <span>Emeralds</span>
+            </div>
+            <div className="gemstone-feature">
+              <Image
+                src="/sapfire_pastel.png"
+                alt="Pastel sapphire ring"
+                fill
+                sizes="(max-width: 720px) 100vw, 720px"
+              />
+              <span>Sapphires</span>
+            </div>
+            <div className="gemstone-feature">
+              <Image
+                src="/rare_pastel.png"
+                alt="Rare collector gemstone ring"
+                fill
+                sizes="(max-width: 720px) 100vw, 720px"
+              />
+              <span>Rare Collector Stones</span>
+            </div>
+            <div className="gemstone-feature">
+              <Image
+                src="/diamonds.png"
+                alt="Diamond jewelry"
+                fill
+                sizes="(max-width: 720px) 100vw, 720px"
+              />
+              <span>Diamonds</span>
+            </div>
+          </div>
+        </section>
+        <section className="faq-section" aria-labelledby="faq-title">
+          <div className="faq-inner">
+            <h2 id="faq-title">Frequently Asked Questions (FAQ)</h2>
+            <div className="faq-list">
+              <details>
+                <summary>How long does a bespoke jewelry project take?</summary>
+                <p>
+                  The timeline depends on the complexity of the design and
+                  gemstone sourcing requirements. On average, bespoke projects
+                  take between 4 and 12 weeks from design approval to delivery.
+                </p>
+              </details>
+              <details>
+                <summary>How much does a bespoke piece cost?</summary>
+                <p>
+                  Each project is unique, and pricing varies depending on the
+                  design, materials, gemstones, and craftsmanship involved.
+                  During our consultation, I will discuss your budget and
+                  provide a personalized quotation.
+                </p>
+              </details>
+              <details>
+                <summary>Is the design fee refundable?</summary>
+                <p>
+                  No. The design fee (&euro;250-&euro;500) covers
+                  consultations, research, design development, and 3D rendering
+                  work. However, this amount is deducted from the final price if
+                  the project proceeds to production.
+                </p>
+              </details>
+              <details>
+                <summary>Do you ship internationally?</summary>
+                <p>
+                  Yes. I offer insured and tracked shipping worldwide. Shipping
+                  costs and delivery times vary depending on the destination and
+                  will be confirmed before payment.
+                </p>
+              </details>
+              <details>
+                <summary>Can I return a bespoke piece?</summary>
+                <p>
+                  Due to the personalized nature of bespoke jewelry, custom-made
+                  pieces cannot be returned or exchanged unless a manufacturing
+                  defect is identified.
+                </p>
+              </details>
+              <details>
+                <summary>Do you offer ring resizing?</summary>
+                <p>
+                  Yes. One complimentary ring resizing is included for rings
+                  purchased through the website if the size is incorrect.
+                  Additional resizing requests may incur a fee depending on the
+                  design.
+                </p>
+              </details>
+              <details>
+                <summary>Can I customize pieces from your collections?</summary>
+                <p>
+                  Absolutely. Many collection pieces can be personalized with
+                  different gemstones, metal colors, or selected design details
+                  while maintaining the spirit of the original design.
+                </p>
+              </details>
+              <details>
+                <summary>Can you source a specific gemstone for me?</summary>
+                <p>
+                  Yes. I carefully source gemstones through trusted suppliers
+                  and can help you find a particular stone based on your
+                  preferences, budget, and project requirements.
+                </p>
+              </details>
+              <details>
+                <summary>Are your gemstones natural?</summary>
+                <p>
+                  Whenever possible, I work with natural gemstones selected for
+                  their beauty, quality, and character. The origin and
+                  characteristics of each stone will be discussed during the
+                  design process.
+                </p>
+              </details>
+              <details>
+                <summary>Will I receive information about my gemstone?</summary>
+                <p>
+                  Yes. Whenever available, gemstones will be accompanied by
+                  relevant documentation, certifications, or provenance
+                  information. I believe transparency is essential when selecting
+                  a stone for a meaningful piece of jewelry.
+                </p>
+              </details>
+              <details>
+                <summary>
+                  Can I use my own gemstone or family heirloom in a new design?
+                </summary>
+                <p>
+                  In many cases, yes. Existing gemstones or inherited jewelry
+                  can often be incorporated into a new bespoke creation, subject
+                  to an assessment of the stone&apos;s condition and suitability
+                  for the design.
+                </p>
+              </details>
             </div>
           </div>
         </section>
