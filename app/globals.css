@@ -35,14 +35,36 @@ img {
 .site-header {
   align-items: center;
   background: #ffffff;
+  border-bottom: 1px solid rgba(232, 224, 214, 0.75);
+  box-shadow: none;
   display: grid;
   gap: clamp(12px, 3vw, 20px);
   grid-template-columns: auto 1fr auto;
+  left: 0;
   min-height: 88px;
   padding: 14px clamp(18px, 4vw, 32px);
-  position: sticky;
+  position: fixed;
+  right: 0;
   top: 0;
-  z-index: 10;
+  transition:
+    background 220ms ease,
+    border-color 220ms ease,
+    box-shadow 220ms ease;
+  width: 100%;
+  z-index: 20;
+}
+
+.site-header.is-scrolled {
+  background: rgba(255, 255, 255, 0.28);
+  backdrop-filter: blur(24px) saturate(1.45);
+  -webkit-backdrop-filter: blur(24px) saturate(1.45);
+  border-bottom-color: rgba(255, 255, 255, 0.58);
+  box-shadow: 0 14px 34px rgba(37, 35, 35, 0.1);
+}
+
+.site-header > * {
+  position: relative;
+  z-index: 1;
 }
 
 .logo-link {
@@ -149,8 +171,8 @@ h6 {
 }
 
 .hero-section {
-  height: calc(100vh - 88px);
-  min-height: 520px;
+  height: 100vh;
+  min-height: 560px;
   position: relative;
   width: 100%;
 }
@@ -284,6 +306,7 @@ h6 {
 }
 
 .sketch-section {
+  background: #f8f7f5;
   display: flex;
   justify-content: center;
   margin: 0;
@@ -299,7 +322,8 @@ h6 {
 }
 
 .craft-text-section {
-  margin: 1rem;
+  background: #f8f7f5;
+  margin: 0;
   padding: 1rem;
   text-align: center;
 }
@@ -354,6 +378,10 @@ h6 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.selected-creations-grid-next {
+  margin-top: 1rem;
+}
+
 .creation-panel {
   aspect-ratio: 1 / 1.48;
   overflow: hidden;
@@ -389,6 +417,14 @@ h6 {
 .creation-panel-ring img {
   object-fit: contain;
   padding: 3.5rem;
+}
+
+.creation-panel-signet img {
+  padding: 2.5rem;
+}
+
+.creation-panel-one img {
+  padding: 2.5rem;
 }
 
 .creation-panel-ring p {
@@ -469,8 +505,8 @@ h6 {
   }
 
   .hero-section {
-    height: calc(100vh - 88px);
-    min-height: 460px;
+    height: 100vh;
+    min-height: 520px;
   }
 
   .ring-card {
@@ -514,6 +550,14 @@ h6 {
 
   .creation-panel-ring img {
     padding: 2rem;
+  }
+
+  .creation-panel-signet img {
+    padding: 1.25rem;
+  }
+
+  .creation-panel-one img {
+    padding: 1.25rem;
   }
 
   .creation-panel-ring p {

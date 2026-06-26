@@ -131,12 +131,13 @@ export default function Home() {
             about owning what everyone else has. It is about owning something
             that was created exclusively for you.
           </p>
+          <div className="consultation-action">
+            <a className="consultation-link" href="#contact">
+              START PROCESS
+            </a>
+          </div>
         </section>
-        <div className="consultation-action">
-          <a className="consultation-link" href="#contact">
-            START PROCESS
-          </a>
-        </div>
+
         <section
           className="selected-creations"
           aria-labelledby="selected-creations-title"
@@ -180,6 +181,94 @@ export default function Home() {
               </p>
               <p>A reminder that the strongest love is not about holding on.</p>
               <p>It is about moving forward, together.</p>
+              <a href="#contact">Discover</a>
+            </div>
+            <div className="selected-creations-grid selected-creations-grid-next">
+              <article className="creation-panel creation-panel-photo">
+                <Image
+                  src="/model_signet.png"
+                  alt="Model wearing a swan signet ring"
+                  fill
+                  sizes="(max-width: 720px) 50vw, 360px"
+                />
+                <p>Model Signet</p>
+              </article>
+              <article className="creation-panel creation-panel-ring creation-panel-signet">
+                <Image
+                  src="/signet.png"
+                  alt="Gold swan signet ring"
+                  fill
+                  sizes="(max-width: 720px) 50vw, 360px"
+                />
+                <p>Signet</p>
+              </article>
+            </div>
+            <div className="creation-story">
+              <div className="creation-story-kicker">The story behind</div>
+              <h3>The Swan Signet</h3>
+              <p>
+                Long before it became a ring, it was a sketch hidden in the
+                corner of an old notebook.
+              </p>
+              <p>A swan, drawn with a few simple lines.</p>
+              <p>Not a symbol of perfection, but of quiet strength.</p>
+              <p>
+                Swans glide effortlessly across the water, yet beneath the
+                surface they move with determination and purpose. The signet was
+                created for the same kind of person: someone who doesn&apos;t
+                need to be the loudest in the room to be remembered.
+              </p>
+              <p>
+                Carved into solid gold, the swan becomes a personal emblem. A
+                reminder that elegance is not something you wear.
+              </p>
+              <p>It&apos;s something you carry.</p>
+              <p>A seal of grace, resilience, and confidence.</p>
+              <a href="#contact">Discover</a>
+            </div>
+            <div className="selected-creations-grid selected-creations-grid-next">
+              <article className="creation-panel creation-panel-photo">
+                <Image
+                  src="/model_ring.png"
+                  alt="Model wearing a one of a kind ring"
+                  fill
+                  sizes="(max-width: 720px) 50vw, 360px"
+                />
+                <p>One of a Kind Pieces</p>
+              </article>
+              <article className="creation-panel creation-panel-ring creation-panel-one">
+                <Image
+                  src="/ring_one.png"
+                  alt="Hand crafted Secret Garden ring"
+                  fill
+                  sizes="(max-width: 720px) 50vw, 360px"
+                />
+                <p>Hand Crafted</p>
+              </article>
+            </div>
+            <div className="creation-story">
+              <div className="creation-story-kicker">The story behind</div>
+              <h3>The Secret Garden Ring</h3>
+              <p>She found the garden by accident.</p>
+              <p>
+                Hidden behind an old stone wall, untouched by maps and forgotten
+                by time, it bloomed in colors she had never seen before.
+                Sapphire blue beside wild amethyst, golden petals beside emerald
+                leaves, each flower different, yet perfectly belonging.
+              </p>
+              <p>Before she left, she picked nothing.</p>
+              <p>Instead, she carried the memory home.</p>
+              <p>Years later, that memory became a ring.</p>
+              <p>
+                Each gemstone represents a moment worth keeping: a dream
+                pursued, a place discovered, a person loved, a version of
+                yourself you never want to forget.
+              </p>
+              <p>
+                No two stones are the same, just as no life is made from a
+                single color.
+              </p>
+              <p>A tiny secret garden, captured forever in gold.</p>
               <a href="#contact">Discover</a>
             </div>
           </div>

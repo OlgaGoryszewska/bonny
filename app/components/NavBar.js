@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const menuItems = [
   { label: "Home", href: "/" },
@@ -14,12 +14,26 @@ const menuItems = [
 
 export default function NavBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [hasScrolled, setHasScrolled] = useState(false);
+
+  useEffect(() => {
+    const updateScrolledState = () => {
+      setHasScrolled(window.scrollY > 12);
+    };
+
+    updateScrolledState();
+    window.addEventListener("scroll", updateScrolledState, { passive: true });
+
+    return () => {
+      window.removeEventListener("scroll", updateScrolledState);
+    };
+  }, []);
 
   return (
-    <header className="site-header">
+    <header className={`site-header${hasScrolled ? " is-scrolled" : ""}`}>
       <a className="logo-link" href="/" aria-label="Bonny home">
         <Image
-          src="/logo_bonny_text.JPG"
+          src="/logo_bonny_text.png"
           alt="Bonny"
           width={72}
           height={64}
