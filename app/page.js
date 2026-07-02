@@ -417,6 +417,23 @@ export default function Home() {
             <h2 id="faq-title">Frequently Asked Questions (FAQ)</h2>
             <div className="faq-list">
               <details>
+                <summary>Is bespoke jewelry more expensive?</summary>
+                <p>
+                  Not necessarily. The price depends on the project, the
+                  materials, the gemstones, and the complexity of the design.
+                </p>
+                <p>
+                  For a classic solitaire ring, a bespoke piece can be similar
+                  in price to a classic design available on the website. The
+                  difference is that the ring is created around your
+                  preferences, your story, and your chosen stone.
+                </p>
+                <p>
+                  A bespoke project does not always mean a more expensive piece.
+                  It means a more personal one.
+                </p>
+              </details>
+              <details>
                 <summary>How long does a bespoke jewelry project take?</summary>
                 <p>
                   The timeline depends on the complexity of the design and
